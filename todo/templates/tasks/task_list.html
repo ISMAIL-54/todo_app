@@ -20,6 +20,7 @@
                     {% else %}
                         {{ task.title }}
                     {% endif %}
+                    <a href="{% url 'delete_task' task.id %}">Delete</a>
                 </li>
             {% empty %}
                 <li>No tasks yet</li>
