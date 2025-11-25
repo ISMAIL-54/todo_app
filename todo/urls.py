@@ -3,5 +3,5 @@ from . import views
 
 # URLconf
 urlpatterns = [
-    path("home/", views.home)
+    path('home', views.task_list, name="task_list")
 ]
