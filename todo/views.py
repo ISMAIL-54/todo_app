@@ -6,8 +6,10 @@ from .models import Task
 def task_list(request):
     if request.method == 'POST':
         title = request.POST.get('title')
+        description = request.POST.get('description')
+        deadline = request.POST.get('deadline')
         if title:
-            Task.objects.create(title=title)
+            Task.objects.create(title=title, description=description, deadline=deadline if deadline else None)
         return redirect('task_list')
 
     tasks = Task.objects.all()
