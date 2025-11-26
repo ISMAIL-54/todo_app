@@ -1,0 +1,23 @@
+* [33mcommit 56130d81b45f5848d6d534746ce340ba59f93b16[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+[31m|[m Author: ISMAIL-54 <ismail.00.me@gmail.com>
+[31m|[m Date:   Tue Nov 25 13:24:08 2025 +0100
+[31m|[m 
+[31m|[m     Add task view, template, URL routing
+[31m|[m 
+* [33mcommit 1dacd995400a27891ef836b1f3520c81afbae5fc[m
+[31m|[m Author: ISMAIL-54 <ismail.00.me@gmail.com>
+[31m|[m Date:   Tue Nov 25 10:46:56 2025 +0100
+[31m|[m 
+[31m|[m     Added task model
+[31m|[m 
+* [33mcommit d8742330500c54eecdc08b97b0f6b813c6950968[m
+[31m|[m Author: ISMAIL-54 <ismail.00.me@gmail.com>
+[31m|[m Date:   Sun Nov 23 15:41:36 2025 +0100
+[31m|[m 
+[31m|[m     Added Hello World
+[31m|[m 
+* [33mcommit 01f83f4ed8265d193d792e396c374aab8392ee9f[m
+  Author: ISMAIL-54 <ismail.00.me@gmail.com>
+  Date:   Sun Nov 23 15:02:27 2025 +0100
+  
+      First commit: set up django project

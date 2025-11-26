@@ -21,6 +21,9 @@
                         {{ task.title }}
                     {% endif %}
                     <a href="{% url 'delete_task' task.id %}">Delete</a>
+                    <a href="{% url 'toggle_complete' task.id %}">
+                        {% if task.completed %}Uncomplete {% else %} Complete {% endif %}
+                    </a>
                 </li>
             {% empty %}
                 <li>No tasks yet</li>
