@@ -24,3 +24,16 @@ A simple and clean To Do App with **Django** and **Bootstrap**, allowing users t
     python -m venv venv
     source venv/bin/activate    (Linux)
     .\venv\scripts\activate     (Windows)
+
+
+## Install dependencies
+    pip install Django
+
+## Run migrations
+    python manage.py migrate
+
+## Start the server
+    python manage.py runserver
+
+# Application Screenshot
+![App](app.png)
