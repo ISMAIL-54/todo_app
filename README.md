@@ -14,3 +14,13 @@ A simple and clean To Do App with **Django** and **Bootstrap**, allowing users t
 - **Back-end:** Django
 - **Front-end:** Bootstrap
 - **Database:** SQLite (Default Django DB)
+
+# Installation & Setup
+## Clone the repo
+    git clone https://github.com/ISMAIL-54/Todo_app.git
+    cd todo_app
+
+## Create virtual environment
+    python -m venv venv
+    source venv/bin/activate    (Linux)
+    .\venv\scripts\activate     (Windows)
