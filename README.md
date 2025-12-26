@@ -20,20 +20,35 @@ A simple and clean To Do App with **Django** and **Bootstrap**, allowing users t
     git clone https://github.com/ISMAIL-54/Todo_app.git
     cd todo_app
 
-## Create virtual environment
+------------------------------------------------------------
+## Run locally without Docker
+#### Create virtual environment
+```bash
     python -m venv venv
     source venv/bin/activate    (Linux)
     .\venv\scripts\activate     (Windows)
+```
 
-
-## Install dependencies
+#### Install dependencies
+```bash
     pip install Django
+```
 
-## Run migrations
+#### Run migrations
+```bash
     python manage.py migrate
+```
 
-## Start the server
+#### Start the server
+```bash
     python manage.py runserver
+```
+
+## Run with Docker
+```bash
+    docker build -t todo-django .
+    docker run -d -p 8080:8080 todo-django
+```
 
 # Application Screenshot
 ![App](app.png)

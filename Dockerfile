@@ -6,11 +6,11 @@ WORKDIR /app
 
 RUN pip install --upgrade pip
 
-COPY ./todo_app/requirements.txt .
+COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY todo_app .
+COPY . .
 
 EXPOSE 8080
 
