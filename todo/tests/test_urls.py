@@ -3,6 +3,11 @@ from django.urls import reverse, resolve
 from todo.views import task_list, add_task, edit_task, delete_task, toggle_complete
 
 class TestUrls(SimpleTestCase):
+
+    def test_task_list_url_resolves_home(self):
+        url = reverse('home')
+        self.assertEqual(resolve(url).func, task_list)
+
     def test_task_list_url_resolves(self):
         url = reverse('task_list')
         self.assertEqual(resolve(url).func, task_list)
