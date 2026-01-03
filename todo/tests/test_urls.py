@@ -2,6 +2,7 @@ from django.test import SimpleTestCase
 from django.urls import reverse, resolve
 from todo.views import task_list, add_task, edit_task, delete_task, toggle_complete
 
+# Test URL routing: 6 tests
 class TestUrls(SimpleTestCase):
 
     def test_task_list_url_resolves_home(self):
